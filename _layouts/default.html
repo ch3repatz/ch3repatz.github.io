@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+    {% if page.custom_title %}
+        {{ page.custom_title }}
+    {% else %}
+        {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+    {% endif %}
+    </title>
+  </head>
+  </body>
+    {{ content }}
+  <body>
+</html>
