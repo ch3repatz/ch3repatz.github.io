@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+		{% assign page = post %}
+		{% include post.html %}
+{% endfor %}
