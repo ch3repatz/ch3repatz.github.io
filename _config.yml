@@ -1,0 +1,14 @@
+# Blog settings
+title: ch3repatz
+email: ch3repatz@gmail.com
+description: "Personal blog of a reverse engineer"
+baseurl: ""
+url: "https://ch3repatz.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+
+gems:
+  - jekyll-sitemap
