@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+
+<p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}</p>
+
+{% if content %}
+  {{ content }}
+{% else %}
+  {{ page.excerpt }}
+  {% if page.content contains '<!-- more -->' %}
+	<p><a href="{{ page.url }}">Read more »</a></p>
+	{% endif %}
+{% endif %}
