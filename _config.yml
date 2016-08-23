@@ -10,6 +10,10 @@ url: "https://ch3repatz.github.io"
 email: ch3repatz@gmail.com
 github: https://github.com/ch3repatz
 
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
 # ================================= Build settings ===================================
 
 markdown: kramdown
@@ -28,6 +32,7 @@ kramdown:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate # Pagination
 
 # Exclude these files from your production _site
 exclude:
