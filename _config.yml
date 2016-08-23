@@ -5,10 +5,15 @@ title: "ch3repatz"
 description: "Personal blog of a reverse engineer"
 baseurl: ""
 url: "https://ch3repatz.github.io"
+author: ch3repatz
 
 # My accounts:
 email: ch3repatz@gmail.com
 github: https://github.com/ch3repatz
+
+# Feeds:
+feed:
+  path: atom.xml
 
 # Pagination
 paginate: 5
