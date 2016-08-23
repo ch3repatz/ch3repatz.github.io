@@ -10,10 +10,9 @@ math: yes
   	<div class="post_date">{{ post.date | date: "%b %-d, %Y / %H:%M" }}</div>
   	{{ post.excerpt }}
   	{% if post.content contains '<!-- more -->' %}
-	  	<p><a href="{{ post.url }}">Read more »</a></p>
-	  	<p>&nbsp;</p>
+	  	<p><a href="{{ post.url }}">Read more... »</a></p>
 	{% else %}
-		<p>&nbsp;</p>
+		<p><a href="{{ post.url }}">Read »</a></p>
 	{% endif %}
 {% endfor %}
 
