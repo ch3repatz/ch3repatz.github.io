@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I have 10+ years of experience in reverse engineering. Last 3 years I have been researchin iOS/Android applications, malware and system internals.
+I have 10+ years of experience in reverse engineering. Last 3 years I have been researching iOS/Android applications, malware and system internals.
 
 Contacts:
 
