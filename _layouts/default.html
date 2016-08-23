@@ -104,11 +104,10 @@
     </style>
     
     <title>
-    {% if page.custom_title %}
-        {{ page.custom_title }}
-    {% else %}
-        {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
-    {% endif %}
+        {% if page.title %}
+        	{{ page.title }} -
+        {% endif %}
+        {{ site.title }}
     </title>
   
   </head>
