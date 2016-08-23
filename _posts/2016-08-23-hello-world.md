@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello, world!
-time: 2016-08-23 2:36
+date: 2016-08-23 2:36
 math: yes
 ---
 
