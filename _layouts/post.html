@@ -8,8 +8,5 @@ layout: default
 {% if content %}
   {{ content }}
 {% else %}
-  {{ page.excerpt }}
-  {% if page.content contains '<!-- more -->' %}
-	<p><a href="{{ page.url }}">Read more »</a></p>
-	{% endif %}
+  <p>No content! Something goes wrong...</p>
 {% endif %}
