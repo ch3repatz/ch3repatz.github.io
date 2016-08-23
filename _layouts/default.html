@@ -36,6 +36,17 @@
       
     {% endif %}
     
+    <!-- Custom styles -->
+    <style>
+    	.logo_image {
+    		
+    	}
+    	.logo {
+    		
+    	}
+    	
+    </style>
+    
     <title>
     {% if page.custom_title %}
         {{ page.custom_title }}
@@ -46,8 +57,20 @@
   
   </head>
   <body>
-    
-    {{ content }}
-    
+    <div class="container">
+    	<!-- Header -->
+    	<div class="row">
+    		<div class="col-md-3 col-md-offset-1">
+    			<div class="logo">
+    				<img src="/images/{{ site.logo }}" class="logo_image">
+    				{{ site.title }}
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Content -->
+    	<div class="row">
+    		{{ content }}
+    	</div>
+    </div>
   </body>
 </html>
