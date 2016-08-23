@@ -44,7 +44,9 @@
     	.logo {
     		
     	}
-    	
+    	.top_menu {
+    		
+    	}
     </style>
     
     <title>
@@ -60,16 +62,20 @@
     <div class="container">
     	<!-- Header -->
     	<div class="row">
-    		<div class="col-md-3 col-md-offset-1">
-    			<div class="logo">
-    				<img src="/images/{{ site.logo }}" class="logo_image">
-    				{{ site.title }}
-    			</div>
+    		<div class="col-md-5 col-md-offset-1 logo">
+    			<img src="/images/{{ site.logo }}" class="logo_image">
+    			{{ site.title }}
     		</div>
+    		<div class="col-md-5 top_menu">
+			<a href="#">Blog</a>
+			<a href="#">Contact</a>
+		</div>
     	</div>
     	<!-- Content -->
     	<div class="row">
-    		{{ content }}
+    		<div class="col-md-10 col-md-offset-1">
+    			{{ content }}
+    		</div>
     	</div>
     </div>
   </body>
