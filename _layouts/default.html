@@ -39,7 +39,8 @@
     <!-- Custom styles -->
     <style>
     	.logo_image {
-    		
+    		width: 100%;
+		height: auto;	
     	}
     	.logo {
     		
@@ -62,8 +63,10 @@
     <div class="container">
     	<!-- Header -->
     	<div class="row">
-    		<div class="col-md-5 col-md-offset-1 logo">
+    		<div class="col-md-1 col-md-offset-1">
     			<img src="/images/{{ site.logo }}" class="logo_image">
+    		</div>
+    		<div class="col-md-4 logo">
     			{{ site.title }}
     		</div>
     		<div class="col-md-5 top_menu">
