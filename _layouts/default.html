@@ -48,7 +48,17 @@
     	.top_menu {
     		font-family: 'Work Sans', sans-serif;
     		font-size: 200%;
+    		padding-top: 80px;
+		text-align: right;
     	}
+    	
+    	/* Center top menu for mobile view */
+	@media screen and (max-width: 991px) {
+		.logo_title, .top_menu {
+			text-align: center;
+			padding-top: 30px;
+		}
+	}
     </style>
     
     <title>
@@ -64,7 +74,7 @@
     <div class="container">
     	<!-- Header -->
     	<div class="row">
-    		<div class="col-md-4 logo_title">
+    		<div class="col-md-4 ol-md-offset-1 logo_title">
     			{{ site.title }}
     		</div>
     		<div class="col-md-6 top_menu">
