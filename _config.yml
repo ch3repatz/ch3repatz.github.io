@@ -1,12 +1,10 @@
 # ================================= Blog settings ====================================
 
 # Blog:
-title: ch3repatz
+title: "ch3repatz"
 description: "Personal blog of a reverse engineer"
 baseurl: ""
 url: "https://ch3repatz.github.io"
-# ...place the logo in /images
-logo: turtle_skeleton.png
 
 # My accounts:
 email: ch3repatz@gmail.com
