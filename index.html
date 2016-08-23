@@ -13,8 +13,8 @@ math: yes
 {% endfor %}
 
 <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.total_posts > paginator.per_page %}
+{% if paginator.total_posts > paginator.per_page %}
+<p>
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}">Previous</a> |
     {% endif %}
@@ -22,5 +22,5 @@ math: yes
     {% if paginator.next_page %}
       | <a href="{{ paginator.next_page_path }}">Next</a>
     {% endif %}
-  {% endif %}
-</div>
+</p>
+{% endif %}
