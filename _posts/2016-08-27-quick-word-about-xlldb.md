@@ -47,7 +47,7 @@ I've started [XLLDB project](https://github.com/ch3repatz/xlldb) about a week ag
 		x0 = thread.registers()['x0']
 		print '%s %s = %s' % (x0.type(), x0.name(), x0.value())
 	
-3. **Tracing code with [Threading Plans](https://llvm.org/svn/llvm-project/lldb/trunk/examples/python/scripted_step.py)** works good for me, but, IMHO, it needs to much repeated code to write. I'd like to turn the repeated code to class methods.
+3. **Tracing code with [Threading Plans](https://llvm.org/svn/llvm-project/lldb/trunk/examples/python/scripted_step.py)** works good for me, but, IMHO, it needs too much repeated code to write. I'd like to turn the repeated code to class methods.
 
 4. ...and many more reasons to cover `SB*` classes with my own mini-framework.
 
