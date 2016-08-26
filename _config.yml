@@ -22,17 +22,12 @@ paginate_path: "/blog/page:num/"
 # ================================= Build settings ===================================
 
 markdown: kramdown
-#highlighter: rouge
+highlighter: rouge
 permalink: pretty
 excerpt_separator: "<!-- more -->"
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-#kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-#  input: GFM
 
 # Use the following plug-ins
 gems:
