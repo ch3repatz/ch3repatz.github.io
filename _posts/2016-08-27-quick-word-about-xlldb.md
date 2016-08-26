@@ -5,7 +5,9 @@ date: 2016-08-27 2:48
 comments: yes
 ---
 
-I've started [XLLDB project](https://github.com/ch3repatz/xlldb) about a week ago. It's a reverse engineering mini-framework written in pure Python. It's OOP-friendly and suitable for automating reverse engineering tasks. Actually, I could continue using "raw" LLDB Python APIs, they are more or less stable and pretty useful. However, some things made my Python code more crap that usual:
+I've started [XLLDB project](https://github.com/ch3repatz/xlldb) about a week ago. It's a reverse engineering mini-framework written in pure Python. It's OOP-friendly and suitable for automating reverse engineering tasks. Actually, I could continue using "raw" LLDB Python APIs, they are more or less stable and pretty useful. However, some things made my Python code more crap that usual.
+
+<!-- more -->
 
 1. **Long calling chains** like
 
