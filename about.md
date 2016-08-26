@@ -10,3 +10,4 @@ Contacts:
 
 * Mail: [ch3repatz@gmail.com](mailto:ch3repatz@gmail.com)
 * GitHub: [https://github.com/ch3repatz/](https://github.com/ch3repatz/)
+* Twitter: [@ch3repatz](https://twitter.com/ch3repatz)
