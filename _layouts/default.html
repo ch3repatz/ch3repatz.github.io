@@ -56,10 +56,9 @@
     	.logo_title {
     		font-family: 'Work Sans', sans-serif;
     		font-size: 400%;
-    		padding-bottom: 0px;
     	}
-    	.subtitle {
-    		font-size: 25%;
+    	.logo_subtitle {
+    		font-family: 'Work Sans', sans-serif;
     	}
     	
     	/* Title is a link, but it's black and not underline */
@@ -142,9 +141,11 @@
     <div class="container">
     	<!-- Header -->
     	<div class="row">
-    		<div class="col-md-4 col-md-offset-1 logo_title">
-    			<a href="{{ site.url }}">{{ site.title }}</a><br>
-    			<span class="subtitle">{{ site.description }}</span>
+    		<div class="col-md-4 col-md-offset-1">
+    			<div class="logo_title">
+    				<a href="{{ site.url }}">{{ site.title }}</a>
+    			</div>
+    			<div class="subtitle">{{ site.description }}</div>
     		</div>
     		<div class="col-md-6 top_menu">
 			<a href="{{ site.url }}">Blog</a>
