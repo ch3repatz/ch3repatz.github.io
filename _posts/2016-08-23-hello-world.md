@@ -7,9 +7,12 @@ math: yes
 
 This is just a test :) Math: $e = mc^2$. Code inline: `mov x0, x1`, code block:
 
-```
-; calling the func.
-b x0
+```python
+def __init__(self):
+  """
+  The constructor
+  """
+  pass
 ```
 
 Lorem ipsum dolor sit amet, sea et nostro molestiae constituto, mea te tale virtute detraxit. Saperet probatus at cum. Pro ei populo atomorum elaboraret. Cum adhuc integre ad, nostrum consequuntur duo ad. Suscipit sapientem prodesset usu an, ex eam modo dolorem, bonorum eruditi laboramus eum cu.
