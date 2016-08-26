@@ -42,59 +42,77 @@
     
     <!-- Custom styles -->
     <style>
+    	/* Body text */
     	body {
     		font-family: 'Open Sans', sans-serif;
     	}
     	
+    	/* Link colors */
     	body a {
     		color: crimson;
     	}
     	
+    	/* Custom font/size for logo at the top-left corner */
     	.logo_title {
     		font-family: 'Work Sans', sans-serif;
     		font-size: 400%;
     	}
+    	
+    	/* Title is a link, but it's black and not underline */
     	.logo_title a:link, .logo_title a:visited, .logo_title a:hover, .logo_title a:active 
     	{
     		color: black;
     		text-decoration: none;
     	}
+    	
+    	/* Top menu  */
     	.top_menu {
     		font-family: 'Work Sans', sans-serif;
     		font-size: 160%;
     		padding-top: 20px;
 		text-align: right;
     	}
-    	
+    	/* Footer */
     	.footer_text, h1, h2, h3, h4, h5, h6 {
     		font-family: 'Work Sans', sans-serif;
     	}
     	
+    	/* h1 should not be too close to a text */
     	h1 {
     		padding-bottom: 10px;
     	}
     	
+    	/* The post date also should not be too close to a text */
     	.post_date {
     		padding-bottom: 20px;
     	}
     	
+    	/* Center title and the top menu if the screen is to small  */
 	@media screen and (max-width: 991px) {
 		.logo_title, .top_menu {
 			text-align: center;
 		}
 	}
+	
+	/* Image is always responsible */
 	img {
 		max-width: 100%;
 		height: auto;
 	}
+	
+	/* Make a blockquote normal-looking */
 	blockquote {
 		font-size: 100%;
 		font-style: italic;
 	}
+	
+	/* Code color/background */
 	code {
 		color: black;
 		background-color: #f5f5f5;
 	}
+	
+	/* Pre color/background/word wrap */
 	pre {
 		color: black;
 		background-color: #f5f5f5;
