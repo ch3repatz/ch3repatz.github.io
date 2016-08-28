@@ -16,7 +16,7 @@ A simple `test.py` with a custom LLDB command `test`:
 	def __lldb_init_module(debugger, internal_dict):
     	debugger.HandleCommand('command script add -f test.test test')
 
-Not a rocket science, yes? I just want the `test` command to continue the selecter process. So what I get?
+<!-- more -->Not a rocket science, yes? I just want the `test` command to continue the selecter process. So what I get?
 
 	(lldb) command script import test.py
 	(lldb) test
