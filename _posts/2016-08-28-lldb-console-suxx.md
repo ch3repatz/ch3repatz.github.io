@@ -24,6 +24,6 @@ Not a rocket science, yes? I just want the `test` command to continue the select
 
 I get a stuck LLDB :( WTF?
 
-If I use `SBProcess::Continue()` from a Python script which use LLDB and run as a standalone script (not as a command in LLDB console), everything works ok for me.
+If I use `SBProcess::Continue()` from a Python script running as a standalone script (not as a command in LLDB console), everything works ok for me.
 
 Such idiotic bugs make development of [XLLDB project](https://github.com/ch3repatz/xlldb) more complex that I expected.
