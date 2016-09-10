@@ -22,13 +22,15 @@ math: yes
 
 <!-- Pagination links -->
 {% if paginator.total_posts > paginator.per_page %}
+<hr>
 <p>
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}">Previous</a> |
+      <a href="{{ paginator.previous_page_path }}">« Previous</a> |
     {% endif %}
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    Page {{ paginator.page }} of {{ paginator.total_pages }}
     {% if paginator.next_page %}
-      | <a href="{{ paginator.next_page_path }}">Next</a>
+      | <a href="{{ paginator.next_page_path }}">Next »</a>
     {% endif %}
 </p>
+<hr>
 {% endif %}
