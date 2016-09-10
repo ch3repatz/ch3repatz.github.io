@@ -11,9 +11,21 @@ layout: default
   <p>No content! Something goes wrong...</p>
 {% endif %}
 
-{% if page.comments %}
+{% if page.previous.url or page.next.url %}
+<hr>
+<p>
+  {% if page.previous.url %}
+    <a href="{{page.previous.url}}">« {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.previous.url and page.next.url %} | {% endif %}
+  {% if page.next.url %}
+    <a href="{{page.next.url}}">{{page.next.title}} »</a>
+  {% endif %}
+</p>
+<hr>
+{% endif %}
 
-<h2>Comments</h2>
+{% if page.comments %}
 
 <div id="disqus_thread"></div>
 <script>
